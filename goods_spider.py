@@ -10,6 +10,13 @@ from retrying import retry
 
 from taobao_login import TaoBaoLogin
 
+"""
+获取详细教程、获取代码帮助、提出意见建议
+关注微信公众号「裸睡的猪」与猪哥联系
+
+@Author  :   猪哥,
+"""
+
 # 关闭警告
 requests.packages.urllib3.disable_warnings()
 # 登录与爬取需使用同一个Session对象
